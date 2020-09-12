@@ -231,7 +231,7 @@ public class FlowMethods {
 		try {
 			activity.navigateToActivityScreen();
 			activity.selectGlassActivity(ActivityTestData.ACTIVITY_NAME);
-			activity.navigateToActivityScreen();
+			//activity.navigateToActivityScreen();
 
 			Report.getInstance().generateReport(Thread.currentThread().getStackTrace()[1].getMethodName(),
 					Constant.statusFlag, driver);
